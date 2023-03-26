@@ -78,14 +78,14 @@ export const ScatterPlot = () => {
     <div className="basis-1/2">
       <div className='items-center justify-center'>
         <p className='text-base pl-9'>Scatter Plot</p>
-        <input
+        {/* <input
           type='range'
           min={1}
           max={400}
           step={1}
           value={50}
           className='w-[80%] mt-5 ml-5'>
-        </input>
+        </input> */}
       </div>
       <Chart
         chartType="ScatterChart"
