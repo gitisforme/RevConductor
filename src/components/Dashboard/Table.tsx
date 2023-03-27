@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Product } from '../../interfaces'
+import { Product } from '../../types'
 import Detail from './Detail'
 import Ban from '../../assets/icons/ban.svg';
 import HandShake from '../../assets/icons/handshake.svg';
